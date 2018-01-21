@@ -1,0 +1,21 @@
+ul{
+    list-style-type:none;
+}
+li{
+    float:left;
+    display:visible;
+}
+.family{
+    background-color:black;
+    margin:50px 50px;
+    padding:20px 20px 20px 20px;
+    border-radius:5%;
+    border-style:groove;
+    max-width: 100em;;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
